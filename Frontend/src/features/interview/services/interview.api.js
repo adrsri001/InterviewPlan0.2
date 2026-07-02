@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-    baseURL: "https://interview-plan0-2-git-main-adrsri001s-projects.vercel.app/",
+    baseURL: "http://localhost:3000",
     withCredentials: true,
 })
 
